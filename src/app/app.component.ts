@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'sample-angular-app';
   myVariable = 123   
+
+   unusedFunction() {  
+    console.log('hello');
+  }
 }

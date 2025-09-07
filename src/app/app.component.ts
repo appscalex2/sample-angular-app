@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title: any = 'sample-angular-app' 
-  console.log(title);               
+  title: any = 'sample-angular-app'             
   unusedVar = 123;;               
 
   myMethod() {                       

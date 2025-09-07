@@ -3,14 +3,20 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'sample-angular-app';
+  title: any = 'sample-angular-app' 
+  console.log(title);               
+  unusedVar = 123;;               
 
-    myVariable = 123 
+  myMethod() {                       
+    return 'hello'
+  }
 
-   unusedFunction() {  
-    console.log('hello');
+  anotherMethod = () => {            
+    let x = 5
+    let y = 10
+    return x + y
   }
 }

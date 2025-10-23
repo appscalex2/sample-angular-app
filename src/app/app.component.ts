@@ -17,5 +17,10 @@ export class AppComponent {
     let x = 5
     let y = 10
     return x + y
+  title = 'sample-angular-app';
+  myVariable = 123   
+
+   unusedFunction() {  
+    console.log('hello');
   }
 }
